@@ -1,0 +1,17 @@
+{% extends "base.nunj" %}
+
+{% block title %}firebase-node-sample Verify Email{% endblock %}
+
+{% block header %}
+<h1>Email Verification</h1>
+{% endblock %}
+
+{% block main %}
+
+{% if verified %}
+<p class="message success">You are now verified.</p>
+{% endif %}{% if not verified %}
+<p class="message warning">{{message}}</p>
+{% endif %}
+
+{% endblock %}

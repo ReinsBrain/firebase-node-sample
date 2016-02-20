@@ -1,0 +1,25 @@
+<html>
+<head>
+	<title>{% block title %}firebase-node-sample{% endblock %}</title>
+	{% block meta %}{% endblock %}
+	<link rel="stylesheet" href="/static/global.css" type="text/css" />
+	{% block link %}{% endblock %}
+	{% block css %}{% endblock %}
+	{% block javascript %}{% endblock %}
+</head>
+<body>
+
+<header>
+{% block header %}{% endblock %}
+</header>
+
+<section class="main">
+  {% block main %}{% endblock %}
+</section>
+
+<footer>
+  {% block footer %}{% endblock %}
+</footer>
+
+</body>
+</html>
